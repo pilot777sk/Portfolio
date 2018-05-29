@@ -28,7 +28,7 @@ h2 {
 
 .navbar-brand:hover, .navbar-brand:active, .navbar-brand:focus, .navbar-brand {
 	font-size: 35px;
-	font-color: black;
+	color: black;
 }
 
 
@@ -55,6 +55,13 @@ a:focus, a:hover {
 }
 
 /*Portfolio*/
+.portfolioImageContainer {
+	border-color: lightseagreen;
+	margin-bottom: 10px;
+	padding: 5;
+}
+
+
  .portfolioPic {
  	width: 325px;
  	margin: auto;
@@ -62,43 +69,8 @@ a:focus, a:hover {
  }
 
 
-.portfolioTextOverlay {
-	color: white;
-	background-color: black;
-	position: absolute;
-	top: 150px;
-}
 
-.portfolioTextOverlay1 {
-	color: white;
-	background-color: black;
-	position: absolute;
-	bottom:44%;
-}
 
-.portfolioTextOverlay2 {
-	color: white;
-	background-color: black;
-	position: absolute;
-	bottom: 11%;
-}
-
-.portfolioTextOverlay3 {
-	color: white;
-	background-color: black;
-	position: absolute;
-	top:150px;
-	left: 30px;
-	
-}
-
-.portfolioTextOverlay4 {
-	color: white;
-	background-color: black;
-	position: absolute;
-	bottom:80px;
-	padding:20px 93px;
-}
 
 
 
